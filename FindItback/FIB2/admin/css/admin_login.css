@@ -1,0 +1,91 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #3498db, #8e44ad);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Centered Container for Login */
+.container {
+    background-color: #ffffff;
+    color: #333;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+/* Heading Styles */
+.container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #8e44ad;
+}
+
+/* Form Input Fields */
+.container input[type="text"], 
+.container input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* Form Input Focus */
+.container input[type="text"]:focus, 
+.container input[type="password"]:focus {
+    border: 1px solid #8e44ad;
+    outline: none;
+    box-shadow: 0 0 5px rgba(142, 68, 173, 0.5);
+}
+
+/* Button Styles */
+.container button {
+    background: #8e44ad;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Button Hover */
+.container button:hover {
+    background: #732d91;
+}
+
+/* Error Message Styles */
+.container p {
+    font-size: 0.9rem;
+    margin: 10px 0;
+    color: #e74c3c;
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
