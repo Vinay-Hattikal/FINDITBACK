@@ -23,7 +23,7 @@ FindItBack is a belongings finder platform designed to help individuals locate l
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Hanamantgouda/FindItback.git
+   https://github.com/Vinay-Hattikal/FINDITBACK.git
    ```
 
 2. Navigate to the project directory:
